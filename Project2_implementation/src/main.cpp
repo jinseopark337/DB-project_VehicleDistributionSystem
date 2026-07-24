@@ -10,8 +10,8 @@
 using namespace std;
 
 const char* HOST = "localhost";
-const char* USER = "root";
-const char* PASS = "1234";
+const char* USER = std::getenv("DB_USER");
+const char* PASS = std::getenv("DB_PASSWORD");
 const char* DB   = "project2";
 const unsigned int PORT = 3306;
 
