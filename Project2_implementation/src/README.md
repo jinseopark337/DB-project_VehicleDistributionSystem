@@ -27,7 +27,7 @@ Project 2 최종 구현은 MySQL C API 기반으로 작성되었으며,ODBC는 �
 * Port: 3306
 * Database: project2
 * User: root
-* Password: 1234
+* Password: your_pw
 
 # MySQL C API 설치 경로
 
