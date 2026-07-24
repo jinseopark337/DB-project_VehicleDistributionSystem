@@ -10,6 +10,8 @@
 using namespace std;
 
 const char* HOST = "localhost";
+//edit_hide user, pw 
+//original ex)user = user, pass = 0000
 const char* USER = std::getenv("DB_USER");
 const char* PASS = std::getenv("DB_PASSWORD");
 const char* DB   = "project2";
